@@ -9,20 +9,25 @@
 </head>
 <style>
     body {
+        background-repeat: no-repeat;
         background-image: url(https://i.postimg.cc/Z5hyBg0Q/Background.jpg); }
     img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 215px;
-    }
+        margin-top: 215px;}
     .picture{
-        transition: .9s;
-    }    
+        transition: .9s;}    
     .picture:hover{
         opacity: 0.8;
-        transform: scale(1.5);
-        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+        transform: scale(1.5);}
+
+@media only screen and (max-width: 415px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 215px; }
     }
 
 </style>
